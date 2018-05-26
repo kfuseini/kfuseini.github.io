@@ -63,6 +63,7 @@ header nav li {
 }
 
 .main .background-image {
+    background: url(assets/img4.jpg) no-repeat center center fixed;
     position: absolute;
     top: 0;
     left: 0;
@@ -71,4 +72,11 @@ header nav li {
     background-size: cover;
     z-index: -1;
     background-color: black;
+}
+
+@media (max-width: 800px) {
+    .main {
+        min-height: 600px;
+    }
+
 }
